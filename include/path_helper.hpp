@@ -27,8 +27,8 @@
 
 #include <string>
 
-#define SKYRIM_ROMFS_DIR "sdmc:/atmosphere/contents/01000A10041EA000/romfs"
-#define SKYRIM_ROMFS_DIR_OLD "sdmc:/atmosphere/titles/01000A10041EA000/romfs"
+#define SKYRIM_ROMFS_DIR "sdmc:/sxos/contents/01000A10041EA000/romfs"
+#define SKYRIM_ROMFS_DIR_OLD "sdmc:/sxos/titles/01000A10041EA000/romfs"
 #define SKYRIM_DATA_DIR "Data"
 #define SKYRIM_INI_FILE "Skyrim.ini"
 #define SKYRIM_INI_LANG_FILE_PREFIX "Skyrim_"
