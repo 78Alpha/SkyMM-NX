@@ -27,7 +27,7 @@
 
 #include "mod.hpp"
 
-#include <inipp/inipp.h>
+#include <inipp.h>
 
 #define INI_SECTION_ARCHIVE "Archive"
 #define INI_ARCHIVE_LIST_1 "sResourceArchiveList"
