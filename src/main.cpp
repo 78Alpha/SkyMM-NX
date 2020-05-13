@@ -31,7 +31,7 @@
 #include "path_helper.hpp"
 #include "string_helper.hpp"
 
-#include <inipp/inipp.h>
+#include <inipp.h>
 #include <switch.h>
 
 #include <algorithm>
