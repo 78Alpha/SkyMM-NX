@@ -19,6 +19,10 @@ Currently, the app requires that all mods follow a standard naming scheme:
 - All BSA files for a given mod must match each other in name
   - Example: `Static Mesh Improvement Mod - Textures.bsa` matches `Static Mesh Improvement Mod - Meshes.bsa`
 
+Notes from 78:
+
+This version works on the SX OS operating system; Make sure to use titles instead of content folder like some mods provide. There is some remaining junk functions from the atmosphere edition, but they should be harmless. The original maintainer has made the choice not to support SX OS, so this fork will remain here solely for those users that that don't like the limited scope of atmosphere/partners.
+
 ### To-do
 
 - Graceful error handling
@@ -35,6 +39,12 @@ SkyMM-NX depends on `devkitA64`, `libnx`, and `switch-tools` to compile. These p
 [devkitPro pacman](https://devkitpro.org/wiki/devkitPro_pacman).
 
 Once all dependencies have been satisfied, simply run `make` in the project directory.
+
+Notes From 78:
+
+The tools involved in building are mostly based on Arch Linux's Pacman; If you are familiar with it, you will know that there is both no documentation and no easily accessible resources to use the basic system... So, use the Windows installer version of devkitpro. This downloads an MSYS instance with everything prebuilt. You will also need to download GCC with Pacman. Look this up on something like stackexchange. Afterwards, you will need to get inipp.h from the original maintainer and place it in the aptly named folder...
+
+After that headache, it should be a simple 'make' command away from producing an NRO. However, I will just provide one becauseI am not heartless.
 
 ### License
 
