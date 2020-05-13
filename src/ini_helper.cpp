@@ -29,7 +29,7 @@
 #include "path_helper.hpp"
 #include "string_helper.hpp"
 
-#include <inipp.h>
+#include <../inipp/inipp.h>
 #include <switch.h>
 
 #include <algorithm>
